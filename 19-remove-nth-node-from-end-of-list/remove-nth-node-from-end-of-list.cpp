@@ -18,7 +18,7 @@ public:
             size++;
             n1 = n1->next;
         }
-        if (size==1||size==n) {
+        if (size==n) {
             return head->next;;
         }
         int indexOFNode = size - n;
